@@ -1,0 +1,122 @@
+body {
+  background-color: darkslategrey;
+  min-width: auto;
+  text-align: left;
+  overflow: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Container-Right {
+  max-width: max-content;
+  display: inline-block;
+  clear: both;
+  float: right;
+}
+
+.Container-Left {
+  max-width: max-content;
+  margin: auto;
+  display: block;
+  float: left;
+  clear: left;
+}
+
+.Nav-Bar {
+  display: block;
+  border-radius: 15px;
+  max-width: max-content;
+  margin: auto;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Logo {
+  display: inline-block;
+  float: right;
+  clear: both;
+  border: 10px;
+  border-radius: 0 50% 0 50%;
+  box-shadow: 1px 1px 20px green;
+  padding: 5px;
+  max-width: max-content;
+  margin: auto;
+}
+
+#Main-Header {
+  text-align: right;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  color: rgb(0, 255, 55);
+  text-shadow: 0.15em 0.15em 0.1em #2f4f4f;
+  float: right;
+  clear: left;
+  margin: auto;
+}
+
+#Main-Text {
+  background-size: cover;
+  background-image: url('images/Greenhouse.jpg');
+  display: inline-block;
+  height: 850px;
+  width: 100%;
+  /* border: 3px double black; */
+  color: rgb(0, 255, 55);
+  text-shadow: 0.15em 0.15em 0.1em #2f4f4f;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 5px 0 0 0;
+  margin-left: initial;
+  padding: 2%;
+  /* transform: translate(-8px, 0px); */
+}
+
+#Main-Text h1 {
+  /* transform: translate(104px, 60px); */
+}
+
+#Main-Text h3 {
+  /* transform: translate(104px, 60px); */
+}
+
+p {
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  text-transform: none;
+  text-shadow: 0.15em 0.15em 0.1em #2f4f4f;
+  /* transform: translate(104px, 60px); */
+}
+
+.Footer {
+  text-align: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 255, 55);
+  text-shadow: 0.15em 0.15em 0.1em #2f4f4f;
+}
+
+a {
+  color: rgb(0, 255, 55);
+}
+
+a:hover {
+  color: orangered;
+}
+
+#Contact-Form {
+  color: #0099cc;
+  background-color: transparent;
+  border: 2px solid #0099cc;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* transform: translate(104px, 60px); */
+}
+
+a {
+  text-decoration: none;
+}

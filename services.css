@@ -1,0 +1,115 @@
+body {
+  background-color: darkslategrey;
+  min-width: 980px;
+  text-align: left;
+  overflow: none;
+}
+
+#Header {
+  font-size: 50px;
+  color: rgb(0, 255, 55);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+#Main-P {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  margin-left: 4%;
+}
+
+.Container-Main {
+  display: block;
+  float: ;
+  clear: both;
+  margin: 10px 0 0 0;
+}
+
+.Img-Top {
+  display: inline-block;
+  border: 1px solid rgba(128, 128, 128, 0.342);
+  margin: 125px;
+}
+
+.Img-Bottom {
+  display: inline-block;
+  border: 1px solid rgba(128, 128, 128, 0.342);
+  margin: 125px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 255, 55);
+}
+
+p {
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Container-Right {
+  max-width: max-content;
+  display: inline-block;
+  clear: both;
+  float: right;
+}
+
+#Logo {
+  display: inline-block;
+  float: right;
+  clear: both;
+  border: 10;
+  border-radius: 0 50% 0 50%;
+  box-shadow: 1px 1px 20px green;
+  padding: 5px;
+  max-width: max-content;
+  margin: auto;
+}
+
+#Main-Header {
+  text-align: right;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  color: rgb(0, 255, 55);
+  text-shadow: 0.15em 0.15em 0.1em #2f4f4f;
+  float: right;
+  clear: left;
+  margin: auto;
+}
+
+.Container-Left {
+  max-width: max-content;
+  margin: auto;
+  display: block;
+  float: left;
+  clear: left;
+}
+
+.Nav-Bar {
+  display: block;
+  border-radius: 15px;
+  background-color: ;
+  max-width: max-content;
+  margin: auto;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Footer {
+  text-align: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 255, 55);
+  text-shadow: 0.15em 0.15em 0.1em #2f4f4f;
+}
+
+a {
+  color: rgb(0, 255, 55);
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+}

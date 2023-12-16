@@ -1,0 +1,89 @@
+body {
+  background-color: darkslategrey;
+  min-width: 980px;
+  text-align: left;
+  overflow: none;
+}
+
+.Container-Right {
+  max-width: max-content;
+  display: inline-block;
+  clear: both;
+  float: right;
+}
+
+#Logo {
+  display: inline-block;
+  float: right;
+  clear: both;
+  border: 10px;
+  border-radius: 0 50% 0 50%;
+  box-shadow: 1px 1px 20px green;
+  padding: 5px;
+  max-width: max-content;
+  margin: auto;
+}
+
+#Main-Header {
+  text-align: right;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  color: rgb(0, 255, 55);
+  text-shadow: 0.15em 0.15em 0.1em #2f4f4f;
+  float: right;
+  clear: left;
+  margin: auto;
+}
+
+.Container-Left {
+  max-width: max-content;
+  margin: auto;
+  display: block;
+  float: left;
+  clear: left;
+}
+
+.Nav-Bar {
+  display: block;
+  border-radius: 15px;
+  background-color: ;
+  max-width: max-content;
+  margin: auto;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Img-Top {
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.Img-Mid {
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.Img-Bottom {
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.Footer {
+  text-align: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 255, 55);
+  text-shadow: 0.15em 0.15em 0.1em #2f4f4f;
+}
+
+a {
+  color: rgb(0, 255, 55);
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+}

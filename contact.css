@@ -1,0 +1,143 @@
+body {
+  background-image: url('images/Greenhouse3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  min-width: 980px;
+  text-align: left;
+  overflow: none;
+}
+
+.Container {
+  max-width: max-content;
+  display: inline-block;
+  clear: both;
+  float: right;
+}
+
+#Heading {
+  font-size: 75px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: whitesmoke;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin-top: 5%;
+}
+
+#Sub-Header {
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: whitesmoke;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+#Contact-Info {
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: whitesmoke;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: 10px 0 0 0;
+}
+
+.Footer {
+  text-align: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 255, 55);
+  text-shadow: 0.15em 0.15em 0.1em #2f4f4f;
+}
+
+#Forms {
+  color: rgb(0, 255, 55);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  clear: right;
+  display: inline-block;
+  margin-top: 5%;
+}
+
+input[type='text'] {
+  width: 170px;
+  height: 30px;
+}
+
+input[type='email'] {
+  width: 170px;
+  height: 30px;
+}
+
+.Container-Right {
+  max-width: max-content;
+  display: inline-block;
+  clear: both;
+  float: right;
+}
+
+#Logo {
+  display: inline-block;
+  float: right;
+  clear: both;
+  border: 10;
+  border-radius: 0 50% 0 50%;
+  box-shadow: 1px 1px 20px green;
+  padding: 5px;
+  max-width: max-content;
+  margin: auto;
+}
+
+#Main-Header {
+  text-align: right;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  color: rgb(0, 255, 55);
+  text-shadow: 0.15em 0.15em 0.1em #2f4f4f;
+  float: right;
+  clear: left;
+  margin: auto;
+}
+
+.Container-Left {
+  max-width: max-content;
+  margin: auto;
+  display: block;
+  float: left;
+  clear: left;
+}
+
+.Nav-Bar {
+  display: block;
+  border-radius: 15px;
+  background-color: ;
+  max-width: max-content;
+  margin: auto;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 255, 55);
+}
+
+a:hover {
+  color: orangered;
+}
+
+button {
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 255, 55);
+  border: 2px solid rgb(0, 255, 55);
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
